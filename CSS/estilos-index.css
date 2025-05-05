@@ -1,0 +1,145 @@
+
+body{
+    animation: body-color linear forwards;
+    animation-timeline: scroll(root block);
+
+    font-family:Arial, Helvetica, sans-serif
+
+}
+  
+@keyframes body-color {
+    0% {background: rgb(251, 251, 251);}
+    50% {background: rgb(255, 188, 129);}
+    70% {background: rgb(255, 188, 129);}
+    100% {background: rgb(23, 18, 116);}
+
+}
+ 
+.Efectotexto {
+
+    position: relative;
+    display: flex;
+    text-align: center;
+    width: 80%;
+    color:rgb(23, 18, 116);
+    font-size: 90px;
+    padding: 2%;
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 1.5s steps(15);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+}
+
+h5{
+    color:rgb(23, 18, 116);
+}
+
+.nav-link {
+    color:rgb(23, 18, 116);
+}
+
+.nav-link:hover{
+    color: rgb(255, 188, 129);
+}
+.apartados {  
+    position: relative;
+    display: flex;
+    height: 100vh;
+}
+
+#slide-inicio{
+    padding-top:10%;
+}
+
+.slide {
+    height: 100%;
+    width: 100%;
+}
+
+
+.imagenPalabras{
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 50%;
+    width: 10%;
+    filter: grayscale(100%);
+    transition: filter 1s;
+}
+
+.imagenPalabras:hover {
+    filter: grayscale(0%);
+}
+
+#slide-enseñanza{
+    position: relative;
+    display: flex;
+}
+
+/*.parallax {
+    background-image: url("../Contenido/nubePreguntas.png");
+    min-height: 600px;
+    width: 600px;
+    margin-top: 10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}*/
+
+.texto{
+    margin-top: 15%;
+    font-size: 1rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#slide-introduccion .texto{
+    color:rgb(23, 18, 116);
+}
+
+#slide-introduccion .texto h1{
+    font-weight: bold;
+}
+
+#slide-enseñanza img {
+    height: 25rem;
+    width: 35rem;
+    margin-top: 10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#slide-enseñanza .texto{
+    color:rgb(23, 18, 116);
+}
+
+#slide-enseñanza  .texto h2{
+    font-weight: bold;
+}
+
+#slide-ejemplo img {
+    height: 30rem;
+    width: 30rem;
+    margin-top: 10%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.box {
+    animation: change linear forwards;
+    animation-timeline: view();
+  }
+  
+  @keyframes change {
+    0% { scale: 0; opacity: 0 }
+    50% { scale: 1; opacity: 1; }
+  }

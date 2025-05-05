@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornadas - Empresas
+    </title>
+    
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="CSS/estilos-index.css">
+
+    <!--Icono pagina de arriba-->
+    <link rel="icon" type="image/x-icon" href="">
+
+</head>
+<body>
+  <!--Este menu de 'hamburguesa' esta sacado de la propia libreria de boostrap -->
+    <nav class="navbar navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+          <a class="offset-1 navbar-brand" href="#slide-inicio">Jornadas</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel"> Jornadas Fp x Empresas</h5>
+              <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link" aria-current="page" href="#slide-introduccion">Introduccion</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#slide-enseñanza">¿Que nos aporta?</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#slide-ejemplo">Herramienta de ejemplo.</a>
+                  </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <div class="container-fluid">
+        <div class="apartados justify-content-center">
+            <div class="slide" id="slide-inicio">
+                <h1 class="Efectotexto offset-2">Jornadas Fp x Empresas</h1>
+                <hr class="mx-auto" style="width: 30rem; height: 0.1rem; background-color: rgb(23, 18, 116); border: none;">
+                <img class="offset-5" src="Contenido/Logo-Jornadas.png" style="height: 15rem; width: 15rem;">
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center align-items-center" id="slide-introduccion">
+        <div class="apartados justify-content-center mx-auto">
+            <div class="texto col-5">
+                    <h1>Bienvenidos</h1>
+                    <hr style="width: 10rem; height: 0.1rem; background-color: rgb(23, 18, 116); border: none;">
+                    <p>Las jornadas se definen como charlas que nos van a presentar gente importante de nuestro sector o no, que nos van ayudar a enfocarnos, a centrarnos o simplemente a informarnos.</p>
+                    <p>Entre varios institutos de aqui, Alicante, hemos organizado durante 5 dias estas charlas que a demas <b>cuentan para la formacion en empresa.</b> </p>
+                    <p><i>Vaya locura,eh?</i></p>
+                    
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center align-items-center" id="slide-enseñanza">
+        <div class="apartados justify-content-center mx-auto">
+            <img class="box ccol-10" src="Contenido/nubePreguntas.png">
+            <div class=" texto offset-1 col-4">
+              <h2>Wow, cuantas palabras. Conocidas? o no?</h2>
+              <hr style="width: 10rem; height: 0.1rem; background-color: rgb(23, 18, 116); border: none;">
+              <p>Te queremos demostrar que ese 'joe cuantas palabras' aprenderas cosas que no sabias, entenderas conceptos que medio conocias. Estas palabras te van ayudar a mejorar tu conocimiento, te van ayudar a guiarte.</p>
+              <p>Puesto que, no solo son palabras hay enseñanza de tras de cada una de ellas.</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid d-flex justify-content-center align-items-center">
+        <div class="apartados justify-content-center mx-auto" id="slide-ejemplo">
+            <div class="texto col-4">
+                <h2>Una de las herramientas que podemos utilizar : RPA</h2>
+                <hr style="width: 10rem; height: 0.1rem; background-color: white; border: none;">
+                <p><i>Pero,¿que es un RPA?</i></p>
+                <p>Pues es un proceso de automatización robótica que nos permite automatizar tareas repetitivas y basadas en reglas mediante software inteligente.</p>
+                <p>¿Te ha gustado? Pues imagina las herramientas que nos van a mostrar. </p>
+            </div>
+            <img class=" box offset-1 col-10" src="Contenido/infografia.png">
+        </div>
+    </div>
+    
+</body>
+</html>
